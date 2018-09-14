@@ -1,0 +1,16 @@
+{
+  "name": "AT-T",
+  "version": "1.0.0",
+  "description": "demo site for AT&T",
+  "main": "app.js",
+  "repository": "git@github.com:Capitacy/AT-T.git",
+  "author": "oshanshrestha <oshan.shr22@gmmail.com>",
+  "license": "UNLICENCED",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3",
+    "next": "^6.1.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
+}
