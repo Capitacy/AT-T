@@ -9,7 +9,7 @@ const options = {
     autoplay: true,
     autoplayHoverPause: true
 }
- 
+
 const events = {
     onDragged: (event) => console.log("Dragged"),
     onChanged: (event) => console.log("Changed")

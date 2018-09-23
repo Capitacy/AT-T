@@ -36,12 +36,6 @@ export default class Navbar extends React.Component {
                         </div>
                         <div className="nav-sub-content">
                             <div className="sub-container">
-
-                                {/* no dropdown here */}
-                                <div className="dropdown">
-                                    <span><a href="/"><p>Home</p></a></span>
-                                </div>
-                                {/* no dropdown here */}
                                 {/* dropdown starts */}
                                 <div className="dropdown">
                                     <span><p>About Us &nbsp;<FontAwesomeIcon icon={["far","arrow-alt-circle-down"]} /></p></span>
