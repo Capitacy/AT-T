@@ -28,7 +28,7 @@ nav {
 }
 .nav-content, .nav-sub-content {
     height: 100%;
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
     /* background: #00f2; */
     background: rgba(27, 153, 139, 1.0);
@@ -43,6 +43,7 @@ nav {
     padding: 0 60px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .brand-logo {
     height: 100%;
