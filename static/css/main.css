@@ -167,10 +167,12 @@ nav {
     color: #eee;
     background: #000a;
     transition: 0.5s ease;
-    opacity: 0;
+    opacity: 0.25;
+    filter: blur(3px);
 }
 .banner-panel:hover .overlay {
     opacity: 1.0;
+    filter: blur(0px);
 }
 .overlay h1, .overlay h2 {
     margin-bottom: -10px;
